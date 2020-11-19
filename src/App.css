@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-title {
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0.19em;
+  text-align: center;
+}
+
+.carousel-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+}
+
+.carousel-item-image {
+  max-height: 285px;
+  max-width: 285px;
+}
+
+.carousel-item-name {
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.carousel-item-price {
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.19em;
+  text-align: center;
+}
