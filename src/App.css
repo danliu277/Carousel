@@ -82,3 +82,44 @@
   letter-spacing: 0.19em;
   text-align: center;
 }
+
+.page-toggle {
+  display: flex;
+  justify-content: center;
+  float: right;
+}
+
+.page-button {
+  display: block;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  border: 0px;
+
+  color: white
+}
+
+.shop-all-button {
+  background: #211D55;
+  height: 55px;
+  width: 301px;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.11em;
+  text-align: center;
+  color: #FAFAFA;
+  border: 0px;
+}
+
+.active-button {
+  background: #211D55;
+}
+
+button:focus {outline:0;}
