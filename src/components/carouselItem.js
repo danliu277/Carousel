@@ -1,11 +1,5 @@
-import { useEffect } from "react";
-
 const CarouselItem = (props) => {
     let {images, title, variants} = props.item
-
-    useEffect(() => {
-        console.log(props)
-    }, []);
 
     return (
         <div className="carousel-item">

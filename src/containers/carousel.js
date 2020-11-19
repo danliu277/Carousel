@@ -12,7 +12,7 @@ const Carousel = () => {
     }, []);
 
     const getItems = () => {
-        return items.slice(0 + (page * 3), 3 + (page * 3)).map((item, index) => {
+        return items.slice(0 + (page * 4), 4 + (page * 4)).map((item, index) => {
             return <CarouselItem key={index} item={item} />
         })
     }
@@ -23,7 +23,7 @@ const Carousel = () => {
     }
 
     const nextPage = () => {
-        if (page < (items.length / 3) - 1)
+        if (page < (items.length / 4) - 1)
             setPage(page + 1)
     }
 
@@ -36,14 +36,14 @@ const Carousel = () => {
 
     const nextPageClass = () => {
         let name = "page-button"
-        if (page < (items.length / 3) - 1)
+        if (page < (items.length / 4) - 1)
             name += " active-button"
         return name
     }
 
     return (
         <div>
-            <div>
+            <div className="carousel-header">
                 <h4 className="carousel-title">SHOP BESTSELLERS</h4>
                 <div className="page-toggle">
                     <button className={prevPageClass()} onClick={prevPage}>&lt;</button>

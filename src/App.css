@@ -42,6 +42,12 @@
   justify-content: center;
 }
 
+.carousel-header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
 .carousel-title {
   font-family: 'proxima-nova', sans-serif;
   font-size: 28px;
@@ -53,9 +59,10 @@
 }
 
 .carousel-item {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
   display: block;
+  width: 285px;
+  height: 400px
 }
 
 .carousel-item-image {
@@ -85,11 +92,14 @@
 
 .page-toggle {
   display: flex;
-  justify-content: center;
-  float: right;
+  position: absolute;
+  right: 0;
+  margin-top: 43.24px;
 }
 
 .page-button {
+  margin-right: 14px;
+
   display: block;
   height: 26px;
   width: 26px;
